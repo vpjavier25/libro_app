@@ -83,8 +83,7 @@ public class LibroServicio {
                 autores.add(existeAutor.get());
             }
         }
-        System.out.println(autores);
-        System.out.println(idiomas);
+
 
         libro.setAutores(autores);
         libro.setIdiomas(idiomas);
