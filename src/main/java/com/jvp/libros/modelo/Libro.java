@@ -14,6 +14,7 @@ public class Libro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    @Column(length = 1000)
     private String titulo;
     private int numeroDeDescargas;
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)

@@ -110,6 +110,8 @@ public class MenuPrincipalVista {
                         seleccionarOpciones();
                     }
                     libroControlador.obtenerLibrosPorIdioma(idiomas.get(idiomaPos - 1));
+                    seleccionarOpciones();
+                    break;
             }
         } else {
             System.out.println("Error,la operacion no existe");

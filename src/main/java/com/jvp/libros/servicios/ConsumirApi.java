@@ -12,7 +12,6 @@ public class ConsumirApi {
         try (HttpClient client = HttpClient.newHttpClient()) {
             HttpRequest request = HttpRequest.newBuilder().uri(URI.create(url)).build();
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-            System.out.println(response.body());
             return response.body();
         } catch (IOException e) {
             throw new RuntimeException(e);
