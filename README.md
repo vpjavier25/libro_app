@@ -1,6 +1,6 @@
 # libro_app
 
-Aplicación que permite agregar libros y obtener información de ellos según ciertos criteris.
+Aplicación que permite agregar libros y obtener información de ellos según ciertos criterios.
 
 ## Funcionalidades del proyecto
 
